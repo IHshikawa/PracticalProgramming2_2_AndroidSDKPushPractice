@@ -87,7 +87,8 @@ public class MyView extends View {
     }
 
     // 指で線を書くメソッド
-    private void MyHandDraw(Canvas canvas) {
+    private void MyHandDraw(Canvas canvas)
+    {
         // 画面の大きさを取得
         int C_Width = getWidth();
         int C_Height = getHeight();
